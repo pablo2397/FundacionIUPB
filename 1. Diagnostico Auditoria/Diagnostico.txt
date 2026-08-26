@@ -1,0 +1,107 @@
+1. Nombre Proyecto:
+Auditoría del Sistema de Información Institucional y de Donaciones de la Fundación Germen de Paz.
+
+2. Nombre Aplicación:
+GermenDePazWeb (germendepaz.org).
+
+3. Propósito Solución Software:
+La solución de software es un sitio web institucional desarrollado en Node.js 
+con base de datos MySQL, orientado a la gestión de contenido informativo de 
+la fundación (historia, programas, misión) y a la gestión de donaciones 
+(CRUD - Registro, Consulta y Verificación de aportes), integrando un sistema de 
+donación mediante códigos QR con selección de canal de pago (Bancolombia, Nequi, Daviplata).
+
+4. Propósito Auditoría Software:
+Cumplimiento de los Estándares de Seguridad (ISO 27001 - ISO 27032) en la solución de 
+software, en particular sobre el manejo de los datos de donantes y los canales de pago 
+expuestos en el sitio, y los Estándares Orientados a la Gestión de la Calidad (ISO 9001) 
+sobre la información institucional publicada y la experiencia del usuario.
+
+5. Actores:
+A. Auditor de TI
+B. Administrador de Contenido (Fundación Germen de Paz)
+C. Donante / Visitante
+D. Pasarela de Pago (Bancolombia, Nequi, Daviplata vía QR)
+
+6. Requerimiento:
+La Fundación Germen de Paz requiere un sistema de gestión de información (CRUD) 
+para la publicación de su labor social y la recepción de donaciones de sus benefactores, 
+con el propósito de ampliar sus canales de difusión y recaudación de nivel local 
+(Barranquilla) a nivel nacional e internacional, asegurando una experiencia de consulta y 
+donación ágil, segura y confiable para sus usuarios internos y externos (Administrador, Donante).
+Un usuario donante ingresa al sitio web, consulta la historia y los programas de la fundación,
+y procede a seleccionar un canal de donación (Bancolombia, Nequi o Daviplata) mediante el 
+código QR correspondiente para realizar su aporte.
+
+Objeto: Organización
+Entidad:
+• Fundación.
+• Programa / Sede.
+
+Objeto: Contenido Institucional
+Entidad:
+• Página.
+• Sección (Historia, Misión, Contacto).
+
+Objeto: Donante
+Entidad:
+• Donante.
+• Tipo de Contacto.
+
+Objeto: Donación
+Entidad:
+• Donación.
+• Canal de Pago (Bancolombia, Nequi, Daviplata).
+
+Objeto: Multimedia
+Entidad:
+• Imagen.
+• Video (embebido de YouTube).
+
+7. Problemática:
+Cuando un visitante realiza un proceso de consulta sobre la fundación o intenta efectuar 
+una donación a través del sitio de información, la respuesta no garantiza de forma 
+consistente la confidencialidad e integridad de los datos entregados, ni una experiencia 
+rápida, oportuna y confiable para completar el aporte.
+
+8. Escenario Actual:
+El donante conoce a la fundación por redes sociales o referidos, debe contactar directamente 
+a un miembro de la fundación para solicitar los datos bancarios de donación, o buscarlos 
+manualmente en publicaciones dispersas; en caso de no encontrar información actualizada, 
+la donación se posterga o no se concreta.
+
+9. Escenario Futuro
+El donante ingresa al sitio web de la fundación desde su dispositivo móvil o computador, 
+consulta la historia y los programas sociales en el catálogo institucional, y selecciona el 
+canal de donación de su preferencia (Bancolombia, Nequi o Daviplata); el sistema le 
+presenta el código QR correspondiente mediante un panel de pestañas, permitiéndole completar
+el aporte de forma inmediata sin intermediarios.
+
+10. Proceso a Auditar
+Proceso de Donación mediante Código QR en el Sitio Web Institucional.
+
+11. Estándar Asociado al Proceso
+Estándares Orientados a la Gestión de la Calidad (ISO 9001).
+
+12. Estándar de Seguridad
+Estándares de Seguridad (ISO 27001 - ISO 27032).
+
+13. Activos de Información a Auditar:
+A. Base de Datos (MySQL).
+B. Aplicación Backend (Node.js / Passenger).
+C. Aplicación Web (frontend germendepaz.org).
+D. Proceso de Negocio (gestión de donaciones).
+E. Servidor (Hosting compartido — ColombiaHosting, CloudLinux).
+
+14. Empresa Espejo Candidata a Aplicar la Auditoría.
+Fundación Saldarriaga Concha.
+Objetivos
+Objetivo general
+Por medio de la propuesta, definir el alcance, características y objetivos de la Auditoría de Información del sitio web de la Fundación Germen de Paz.
+Objetivos específicos
+• Identificar las características de la propuesta del sistema de información a ser auditado.
+• Realizar un informe con las características del sistema a auditar.
+• Conocer las características de estándares y alcance del proyecto de auditoría.
+• Aprender a planificar la auditoría de sistemas de información basada en un proyecto de T.I.
+Actividades
+En la práctica se revisará la propuesta de auditoría, propósito, alcance, validez y coherencia de la auditoría del sistema de información propuesto para el sitio web de la Fundación Germen de Paz.
